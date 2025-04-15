@@ -1,7 +1,7 @@
 from . import db
 from datetime import datetime, timezone
 
-class Movies(db.Model):
+class Movie(db.Model):
     __tablename__='movies'
 
     id = db.Column(db.Integer, primary_key=True)
