@@ -7,6 +7,7 @@ This file creates your application.
 
 from app import app, db
 from flask import render_template, request, jsonify, send_file
+from flask_wtf.csrf import generate_csrf
 from werkzeug.utils import secure_filename
 import os
 from app.models import Movies
@@ -24,6 +25,9 @@ def index():
 ###
 # The functions below should be applicable to all Flask apps.
 ###
+@app.route('/api/v1/csrf-token', methods=['GET'])
+def get_csrf():
+    return jsonify({'csrf_token': generate_csrf()})
 
 @app.route('/api/v1/movies', methods=['POST'])
 def movies():

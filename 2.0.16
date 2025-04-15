@@ -1,0 +1,13 @@
+Requirement already satisfied: SQLAlchemy in c:\users\wgary\downloads\vscode env\labs\3180\info3180-lab5\.venv\lib\site-packages (1.4.54)
+Collecting SQLAlchemy
+  Downloading sqlalchemy-2.0.40-cp313-cp313-win_amd64.whl.metadata (9.9 kB)
+Requirement already satisfied: greenlet>=1 in c:\users\wgary\downloads\vscode env\labs\3180\info3180-lab5\.venv\lib\site-packages (from SQLAlchemy) (3.1.1)
+Requirement already satisfied: typing-extensions>=4.6.0 in c:\users\wgary\downloads\vscode env\labs\3180\info3180-lab5\.venv\lib\site-packages (from SQLAlchemy) (4.13.2)
+Downloading sqlalchemy-2.0.40-cp313-cp313-win_amd64.whl (2.1 MB)
+   ---------------------------------------- 2.1/2.1 MB 12.2 MB/s eta 0:00:00
+Installing collected packages: SQLAlchemy
+  Attempting uninstall: SQLAlchemy
+    Found existing installation: SQLAlchemy 1.4.54
+    Uninstalling SQLAlchemy-1.4.54:
+      Successfully uninstalled SQLAlchemy-1.4.54
+Successfully installed SQLAlchemy-2.0.40
